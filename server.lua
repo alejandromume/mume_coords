@@ -9,7 +9,7 @@ Config.purple 				  = 11750815
 RegisterServerEvent('webh')
 AddEventHandler('webh', function(player, param, x, y, z)
 
-    local DiscordWebHook = "WEBHOOK_URL"
+    local DiscordWebHook = "WEBHOOK_URL" -- Your webhook right here.
 
     local embeds = {
         {
